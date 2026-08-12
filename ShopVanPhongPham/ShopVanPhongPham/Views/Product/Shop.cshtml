@@ -1,0 +1,114 @@
+﻿@model IEnumerable<ShopVanPhongPham.Models.Product>
+
+@{
+    ViewData["Title"] = "Danh Mục Sản Phẩm";
+    var categories = ViewBag.Categories as List<string> ?? new List<string>();
+    var currentCategory = ViewBag.Category as string;
+    var pageTitle = string.IsNullOrEmpty(currentCategory) ? "Tất cả sản phẩm" : currentCategory;
+}
+
+<section class="shop-page py-4">
+    <div class="container">
+
+        <nav class="wf-breadcrumb">
+            <a asp-controller="Home" asp-action="Index">Trang chủ</a> <span>&rsaquo;</span>
+            <span class="active">Danh mục sản phẩm</span>
+        </nav>
+
+        <div class="row g-4">
+            <!-- Sidebar bộ lọc -->
+            <div class="col-lg-3">
+                <div class="sidebar-card">
+                    <h6>Danh mục sản phẩm</h6>
+                    <ul class="sidebar-cat-list">
+                        <li>
+                            <a asp-action="Shop" class="@(string.IsNullOrEmpty(currentCategory) ? "active" : "")">
+                                Tất cả sản phẩm
+                            </a>
+                        </li>
+                        @foreach (var cat in categories)
+                        {
+                            <li>
+                                <a asp-action="Shop" asp-route-category="@cat" asp-route-search="@ViewBag.Search"
+                                   class="@(currentCategory == cat ? "active" : "")">
+                                    @cat
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+
+                <div class="sidebar-card">
+                    <h6>Bộ lọc</h6>
+                    <label class="small text-muted mb-2 d-block">Khoảng giá</label>
+                    <input type="range" class="form-range mb-2" min="0" max="500000" disabled>
+                    <div class="d-flex justify-content-between small text-muted mb-3">
+                        <span>0đ</span><span>500.000đ+</span>
+                    </div>
+
+                    <label class="small text-muted mb-2 d-block">Thương hiệu</label>
+                    <div class="filter-check"><input type="checkbox" disabled> Thiên Long</div>
+                    <div class="filter-check"><input type="checkbox" disabled> Deli</div>
+                    <div class="filter-check"><input type="checkbox" disabled> M&amp;G</div>
+                    <div class="filter-check"><input type="checkbox" disabled> ClassMate</div>
+
+                    <label class="small text-muted mt-3 mb-2 d-block">Màu sắc</label>
+                    <div class="d-flex gap-2">
+                        <span class="filter-swatch" style="background:#1a1a1a"></span>
+                        <span class="filter-swatch" style="background:#d9534f"></span>
+                        <span class="filter-swatch" style="background:#8a8f98"></span>
+                        <span class="filter-swatch" style="background:#fff"></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nội dung chính -->
+            <div class="col-lg-9">
+                <h2 class="mb-1">@pageTitle</h2>
+                <p class="text-muted small mb-0">Sản phẩm chất lượng, chính hãng, giá tốt cho học tập và làm việc.</p>
+
+                <!-- Thanh lọc / tìm kiếm server-side -->
+                <form asp-action="Shop" method="get" class="wf-toolbar">
+                    <div class="d-flex flex-grow-1 gap-2 flex-wrap">
+                        <input name="search" value="@ViewBag.Search"
+                               type="text" class="form-control" style="max-width:280px"
+                               placeholder="Tìm sản phẩm..." />
+                        <input type="hidden" name="category" value="@currentCategory" />
+                        <button type="submit" class="btn btn-wf-outline btn-sm">
+                            <i class="bi bi-search"></i> Lọc
+                        </button>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                        <span class="small text-muted">Tìm thấy @Model.Count() sản phẩm</span>
+                        <select class="wf-select" disabled>
+                            <option>Sắp xếp: Phổ biến</option>
+                        </select>
+                    </div>
+                </form>
+
+                <!-- Hiển thị kết quả -->
+                @if (!Model.Any())
+                {
+                    <div class="text-center py-5">
+                        <div style="font-size:3rem">😕</div>
+                        <h5 class="text-muted mt-3">Không tìm thấy sản phẩm nào</h5>
+                        <a asp-action="Shop" class="btn btn-wf-outline mt-3">
+                            Xem tất cả sản phẩm
+                        </a>
+                    </div>
+                }
+                else
+                {
+                    <div class="row g-3" id="productGrid">
+                        @foreach (var product in Model)
+                        {
+                            <div class="col-6 col-md-4 col-xl-3 product-item">
+                                @await Html.PartialAsync("_Product", product)
+                            </div>
+                        }
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>

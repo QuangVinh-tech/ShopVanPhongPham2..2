@@ -1,0 +1,123 @@
+﻿@model IEnumerable<ShopVanPhongPham.Models.Product>
+
+@{
+    ViewData["Title"] = "Trang chủ - Shop Văn Phòng Phẩm";
+    var categories = ViewBag.Categories as IEnumerable<dynamic>;
+    var featured = Model.Take(6);
+}
+
+<section class="py-4">
+    <div class="container">
+        <div class="row g-4">
+
+            <!-- Sidebar danh mục -->
+            <div class="col-lg-3 d-none d-lg-block">
+                <div class="sidebar-card p-0">
+                    <ul class="sidebar-cat-list p-3">
+                        @if (categories != null)
+                        {
+                            foreach (var c in categories)
+                            {
+                                <li>
+                                    <a asp-controller="Product" asp-action="Shop" asp-route-category="@c.Name">
+                                        @c.Name <span class="count">(@c.Count)</span>
+                                    </a>
+                                </li>
+                            }
+                        }
+                        <li>
+                            <a asp-controller="Product" asp-action="Shop">
+                                Xem thêm <i class="bi bi-chevron-down"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-promo">
+                    <div class="text-uppercase small fw-semibold text-muted mb-1">Ưu đãi mùa tựu trường</div>
+                    <div class="promo-badge">Giảm đến 20%</div>
+                    <p class="small text-muted mt-2 mb-3">Áp dụng cho một số sản phẩm</p>
+                    <a asp-controller="Product" asp-action="Shop" class="btn btn-wf-dark btn-sm px-4">Xem ngay</a>
+                </div>
+            </div>
+
+            <!-- Nội dung chính -->
+            <div class="col-lg-9">
+                <!-- Hero / banner -->
+                <div class="wf-hero">
+                    <div>
+                        <h1>Văn phòng phẩm<br />Chất lượng &ndash; Giá tốt</h1>
+                        <p>Đa dạng sản phẩm, đáp ứng mọi nhu cầu học tập và làm việc.</p>
+                        <a href="/Product/Shop" class="btn btn-wf-dark btn-lg px-4">Mua sắm ngay</a>
+                    </div>
+                </div>
+
+                <!-- Feature strip -->
+                <div class="wf-features-strip">
+                    <div class="wf-feature">
+                        <i class="bi bi-truck"></i>
+                        <div>
+                            <strong>Giao hàng nhanh</strong>
+                            <span>Toàn quốc</span>
+                        </div>
+                    </div>
+                    <div class="wf-feature">
+                        <i class="bi bi-arrow-repeat"></i>
+                        <div>
+                            <strong>Đổi trả dễ dàng</strong>
+                            <span>Trong 7 ngày</span>
+                        </div>
+                    </div>
+                    <div class="wf-feature">
+                        <i class="bi bi-patch-check"></i>
+                        <div>
+                            <strong>Sản phẩm chính hãng</strong>
+                            <span>100% uy tín</span>
+                        </div>
+                    </div>
+                    <div class="wf-feature">
+                        <i class="bi bi-headset"></i>
+                        <div>
+                            <strong>Hỗ trợ 24/7</strong>
+                            <span>Tư vấn tận tâm</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Danh mục nổi bật -->
+                <div class="wf-section-title">
+                    <h4>Danh mục nổi bật</h4>
+                    <a asp-controller="Product" asp-action="Shop">Xem tất cả <i class="bi bi-arrow-right"></i></a>
+                </div>
+                <div class="row g-3">
+                    @if (categories != null)
+                    {
+                        foreach (var c in categories)
+                        {
+                            <div class="col-4 col-md-2">
+                                <a asp-controller="Product" asp-action="Shop" asp-route-category="@c.Name" class="cat-icon-card text-decoration-none">
+                                    <span class="cat-icon-box"><i class="bi bi-box-seam"></i></span>
+                                    <span>@c.Name</span>
+                                </a>
+                            </div>
+                        }
+                    }
+                </div>
+
+                <!-- Sản phẩm nổi bật -->
+                <div class="wf-section-title">
+                    <h4>Sản phẩm nổi bật</h4>
+                    <a asp-controller="Product" asp-action="Shop">Xem tất cả <i class="bi bi-arrow-right"></i></a>
+                </div>
+                <div class="row g-3">
+                    @foreach (var product in featured)
+                    {
+                        <div class="col-6 col-md-4">
+                            @await Html.PartialAsync("_Product", product)
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
