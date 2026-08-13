@@ -5,80 +5,87 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<section class="py-5" style="min-height:80vh; background:#f8f9fa;">
+<link rel="stylesheet" href="~/css/auth.css" asp-append-version="true" />
+
+<section class="auth-section">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-5 col-lg-4">
+        <div class="auth-card">
+            <h3 class="auth-title">Đăng nhập</h3>
+            <p class="auth-subtitle">Chào mừng bạn trở lại!</p>
+            <hr class="auth-hr" />
 
-                <div class="card shadow border-0 rounded-4 p-4">
-                    <!-- Header -->
-                    <div class="text-center mb-4">
-                        <i class="bi bi-person-circle text-warning" style="font-size:3rem;"></i>
-                        <h3 class="fw-bold mt-2">Đăng nhập</h3>
-                        <p class="text-muted small">Chào mừng bạn quay lại VPP Shop</p>
+            <form id="account" method="post" novalidate>
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger py-2 small" role="alert"></div>
+
+                <div class="auth-field">
+                    <label asp-for="Input.Email" class="auth-label">Email</label>
+                    <div class="auth-input-group">
+                        <span class="auth-input-icon"><i class="bi bi-person"></i></span>
+                        <input asp-for="Input.Email"
+                               class="auth-input"
+                               autocomplete="username"
+                               aria-required="true"
+                               placeholder="Nhập email" />
                     </div>
-
-                    <!-- Form -->
-                    <form id="account" method="post">
-                        <div asp-validation-summary="ModelOnly" class="alert alert-danger py-2 small" role="alert"></div>
-
-                        <div class="form-floating mb-3">
-                            <input asp-for="Input.Email"
-                                   class="form-control rounded-3"
-                                   autocomplete="username"
-                                   aria-required="true"
-                                   placeholder="email@example.com" />
-                            <label asp-for="Input.Email">
-                                <i class="bi bi-envelope me-1"></i>Email
-                            </label>
-                            <span asp-validation-for="Input.Email" class="text-danger small"></span>
-                        </div>
-
-                        <div class="form-floating mb-3">
-                            <input asp-for="Input.Password"
-                                   class="form-control rounded-3"
-                                   autocomplete="current-password"
-                                   aria-required="true"
-                                   placeholder="Mật khẩu" />
-                            <label asp-for="Input.Password">
-                                <i class="bi bi-lock me-1"></i>Mật khẩu
-                            </label>
-                            <span asp-validation-for="Input.Password" class="text-danger small"></span>
-                        </div>
-
-                        <div class="d-flex justify-content-between align-items-center mb-3">
-                            <div class="form-check">
-                                <input class="form-check-input" asp-for="Input.RememberMe" />
-                                <label class="form-check-label small" asp-for="Input.RememberMe">
-                                    Ghi nhớ đăng nhập
-                                </label>
-                            </div>
-                        </div>
-
-                        <button id="login-submit" type="submit"
-                                class="w-100 btn btn-warning fw-bold py-2 rounded-3">
-<i class="bi bi-box-arrow-in-right me-2"></i>Đăng nhập
-                        </button>
-                    </form>
-
-                    <hr class="my-4" />
-
-                    <div class="text-center small">
-                        <p class="mb-1">
-                            Chưa có tài khoản?
-                            <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl"
-                               class="text-warning fw-semibold text-decoration-none">
-                                Đăng ký ngay
-                            </a>
-                        </p>
-                    </div>
+                    <span asp-validation-for="Input.Email" class="text-danger small"></span>
                 </div>
 
-            </div>
+                <div class="auth-field">
+                    <label asp-for="Input.Password" class="auth-label">Mật khẩu</label>
+                    <div class="auth-input-group">
+                        <span class="auth-input-icon"><i class="bi bi-lock"></i></span>
+                        <input asp-for="Input.Password"
+                               class="auth-input"
+                               autocomplete="current-password"
+                               aria-required="true"
+                               placeholder="Nhập mật khẩu" />
+                        <button type="button" class="auth-eye" data-toggle-target="Input_Password" aria-label="Hiện/ẩn mật khẩu">
+                            <i class="bi bi-eye"></i>
+                        </button>
+                    </div>
+                    <span asp-validation-for="Input.Password" class="text-danger small"></span>
+                    <a asp-page="./ForgotPassword" class="auth-forgot">Quên mật khẩu?</a>
+                </div>
+
+                <div class="form-check mb-3">
+                    <input class="form-check-input" asp-for="Input.RememberMe" />
+                    <label class="form-check-label small" asp-for="Input.RememberMe">
+                        Ghi nhớ đăng nhập
+                    </label>
+                </div>
+
+                <button id="login-submit" type="submit" class="auth-btn">
+                    Đăng nhập
+                </button>
+            </form>
+
+            <p class="auth-switch">
+                Chưa có tài khoản?
+                <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Đăng ký ngay</a>
+            </p>
         </div>
     </div>
 </section>
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
+    <script>
+        document.querySelectorAll('.auth-eye').forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                var id = btn.getAttribute('data-toggle-target');
+                var input = document.getElementById(id);
+                var icon = btn.querySelector('i');
+                if (!input) return;
+                if (input.type === 'password') {
+                    input.type = 'text';
+                    icon.classList.remove('bi-eye');
+                    icon.classList.add('bi-eye-slash');
+                } else {
+                    input.type = 'password';
+                    icon.classList.remove('bi-eye-slash');
+                    icon.classList.add('bi-eye');
+                }
+            });
+        });
+    </script>
 }

@@ -71,12 +71,26 @@ namespace ShopVanPhongPham.Areas.Identity.Pages.Account
         public class InputModel
         {
             /// <summary>
+            ///     Họ và tên người dùng.
+            /// </summary>
+            [Required(ErrorMessage = "Vui lòng nhập họ và tên")]
+            [StringLength(100, ErrorMessage = "Họ và tên tối đa {1} ký tự.")]
+            public string FullName { get; set; } = "";
+
+            /// <summary>
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
             ///     directly from your code. This API may change or be removed in future releases.
             /// </summary>
             [Required(ErrorMessage = "Vui lòng nhập email")]
             [EmailAddress(ErrorMessage = "Email không hợp lệ")]
             public string Email { get; set; } = "";
+
+            /// <summary>
+            ///     Số điện thoại người dùng.
+            /// </summary>
+            [Required(ErrorMessage = "Vui lòng nhập số điện thoại")]
+            [Phone(ErrorMessage = "Số điện thoại không hợp lệ")]
+            public string PhoneNumber { get; set; } = "";
 
             /// <summary>
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
@@ -120,6 +134,9 @@ namespace ShopVanPhongPham.Areas.Identity.Pages.Account
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User created a new account with password.");
+
+                    await _userManager.SetPhoneNumberAsync(user, Input.PhoneNumber);
+                    await _userManager.AddClaimAsync(user, new System.Security.Claims.Claim("FullName", Input.FullName));
 
                     var userId = await _userManager.GetUserIdAsync(user);
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
