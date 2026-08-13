@@ -20,14 +20,12 @@ public class HomeController : Controller
     public IActionResult Index()
     {
         var products = _productRepo.GetAllProducts();
-
         ViewBag.Categories = products
-            .Where(p => !string.IsNullOrEmpty(p.Category))
-            .GroupBy(p => p.Category)
+            .Where(p => p.Category != null)
+            .GroupBy(p => p.Category!.Name)
             .Select(g => new { Name = g.Key, Count = g.Count() })
             .OrderBy(c => c.Name)
             .ToList();
-
         return View(products.ToList());
     }
 
@@ -50,7 +48,6 @@ public class HomeController : Controller
             TempData["ErrorMessage"] = "Vui lòng điền đầy đủ thông tin bắt buộc.";
             return RedirectToAction("Contact");
         }
-
         var contactMessage = new ContactMessage
         {
             FullName = fullName,
@@ -61,13 +58,10 @@ public class HomeController : Controller
             SentAt = DateTime.Now,
             IsRead = false
         };
-
         _context.ContactMessages.Add(contactMessage);
         await _context.SaveChangesAsync();
-
         TempData["SuccessMessage"] =
             "Cảm ơn bạn đã liên hệ! Chúng tôi sẽ phản hồi sớm nhất có thể.";
-
         return RedirectToAction("Contact");
     }
 }
