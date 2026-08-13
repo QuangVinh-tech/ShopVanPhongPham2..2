@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering; 
+using Microsoft.EntityFrameworkCore;
 using ShopVanPhongPham.Data;
 using ShopVanPhongPham.Models;
 
@@ -22,10 +24,14 @@ namespace ShopVanPhongPham.Areas.Admin.Controllers
         {
             if (TempData["Success"] != null)
                 ViewBag.Success = TempData["Success"];
-            return View(_context.Products.ToList());
+            return View(_context.Products.Include(p => p.Category).ToList());  
         }
 
-        public IActionResult Create() => View();
+        public IActionResult Create()
+        {
+            ViewBag.Categories = new SelectList(_context.Categories, "Id", "Name");   
+            return View();
+        }
 
         [HttpPost]
         public async Task<IActionResult> Create(Product product, IFormFile? imageFile)
@@ -46,15 +52,15 @@ namespace ShopVanPhongPham.Areas.Admin.Controllers
             }
 
             ModelState.Remove("ImageUrl");
-
+            ModelState.Remove("Category"); 
             if (!ModelState.IsValid)
             {
-                // Hiện lỗi để debug
                 var errors = ModelState.Values
                     .SelectMany(v => v.Errors)
                     .Select(e => e.ErrorMessage)
                     .ToList();
                 ViewBag.DebugErrors = string.Join(" | ", errors);
+                ViewBag.Categories = new SelectList(_context.Categories, "Id", "Name", product.CategoryId);   
                 return View(product);
             }
 
@@ -68,6 +74,7 @@ namespace ShopVanPhongPham.Areas.Admin.Controllers
         {
             var product = _context.Products.Find(id);
             if (product == null) return NotFound();
+            ViewBag.Categories = new SelectList(_context.Categories, "Id", "Name", product.CategoryId);  
             return View(product);
         }
 
@@ -86,6 +93,7 @@ namespace ShopVanPhongPham.Areas.Admin.Controllers
             }
 
             ModelState.Remove("ImageUrl");
+            ModelState.Remove("Category");   
 
             if (!ModelState.IsValid)
             {
@@ -94,7 +102,7 @@ namespace ShopVanPhongPham.Areas.Admin.Controllers
                     .Select(e => e.ErrorMessage)
                     .ToList();
                 ViewBag.DebugErrors = string.Join(" | ", errors);
-                return View(product);
+                ViewBag.Categories = new SelectList(_context.Categories, "Id", "Name", product.CategoryId);   
             }
 
             _context.Products.Update(product);

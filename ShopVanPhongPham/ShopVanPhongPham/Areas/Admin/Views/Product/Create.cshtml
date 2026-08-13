@@ -50,12 +50,8 @@
                 </div>
                 <div class="col-md-6">
                     <label class="form-label fw-semibold">Danh mục</label>
-                    <select asp-for="Category" class="form-select">
-                        <option value="But">Bút</option>
-                        <option value="So">Sổ / Tập</option>
-                        <option value="DungCu">Dụng cụ văn phòng</option>
-                        <option value="Giay">Giấy</option>
-                        <option value="Khac">Khác</option>
+                    <select asp-for="CategoryId" asp-items="ViewBag.Categories" class="form-select">
+                        <option value="">-- Chọn danh mục --</option>
                     </select>
                 </div>
             </div>
