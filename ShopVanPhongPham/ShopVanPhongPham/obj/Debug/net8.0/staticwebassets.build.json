@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9O0YlxqKSagLWFiHQyNKh8hh7kG7xp0KW4PkRrGHi/I=",
+  "Hash": "c9Oz3cPraa4+OeHDxehSKGoPSqxcj7D1Cywe7N3ETBA=",
   "Source": "ShopVanPhongPham",
   "BasePath": "_content/ShopVanPhongPham",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "ShopVanPhongPham\\wwwroot",
       "Source": "ShopVanPhongPham",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "Pattern": "**"
     }
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.27\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ShopVanPhongPham.styles.css",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ShopVanPhongPham.styles.css",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "ShopVanPhongPham.styles.css",
       "AssetKind": "All",
@@ -1173,13 +1173,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ShopVanPhongPham.styles.css"
+      "OriginalItemSpec": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ShopVanPhongPham.styles.css"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ShopVanPhongPham.bundle.scp.css",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ShopVanPhongPham.bundle.scp.css",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "ShopVanPhongPham.bundle.scp.css",
       "AssetKind": "All",
@@ -1192,13 +1192,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ShopVanPhongPham.bundle.scp.css"
+      "OriginalItemSpec": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ShopVanPhongPham.bundle.scp.css"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\bootstrap\\css\\bootstrap.min.css",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\bootstrap\\css\\bootstrap.min.css",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/bootstrap/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\bootstrap\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\bootstrap\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\bootstrap\\css\\bootstrap-grid.min.css",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/bootstrap/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\bootstrap\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\bootstrap\\css\\bootstrap-reboot.min.css",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/bootstrap/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\bootstrap\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\bootstrap\\js\\bootstrap.bundle.min.js",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/bootstrap/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\bootstrap\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\dropdown\\css\\style.css",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\dropdown\\css\\style.css",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/dropdown/css/style.css",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\dropdown\\css\\style.css"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\dropdown\\js\\navbar-dropdown.js",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\dropdown\\js\\navbar-dropdown.js",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/dropdown/js/navbar-dropdown.js",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\dropdown\\js\\navbar-dropdown.js"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\formoid\\formoid.min.js",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\formoid\\formoid.min.js",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/formoid/formoid.min.js",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\formoid\\formoid.min.js"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\aecb30df-9aad-4583-9269-17f9c627dbdb.jpg",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\aecb30df-9aad-4583-9269-17f9c627dbdb.jpg",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/images/aecb30df-9aad-4583-9269-17f9c627dbdb.jpg",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\aecb30df-9aad-4583-9269-17f9c627dbdb.jpg"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\anna-bratiychuk-3w2aurzeesu-unsplash-815x1223.jpg",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\anna-bratiychuk-3w2aurzeesu-unsplash-815x1223.jpg",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/images/anna-bratiychuk-3w2aurzeesu-unsplash-815x1223.jpg",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\anna-bratiychuk-3w2aurzeesu-unsplash-815x1223.jpg"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\b8b63674-a2ce-4b2d-b112-44a5bf5016cd.png",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\b8b63674-a2ce-4b2d-b112-44a5bf5016cd.png",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/images/b8b63674-a2ce-4b2d-b112-44a5bf5016cd.png",
       "AssetKind": "All",
@@ -1385,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\b8b63674-a2ce-4b2d-b112-44a5bf5016cd.png"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\bamkim.jpg",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\bamkim.jpg",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/images/bamkim.jpg",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\bamkim.jpg"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\bangkeo.png",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\bangkeo.png",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/images/bangkeo.png",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\bangkeo.png"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\brent-ninaber-vlpefxuqynm-unsplash-2000x1125.jpg",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\brent-ninaber-vlpefxuqynm-unsplash-2000x1125.jpg",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/images/brent-ninaber-vlpefxuqynm-unsplash-2000x1125.jpg",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\brent-ninaber-vlpefxuqynm-unsplash-2000x1125.jpg"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\butchib2.jpg",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\butchib2.jpg",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/images/butchib2.jpg",
       "AssetKind": "All",
@@ -1461,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\butchib2.jpg"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\butthienlong.jpg",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\butthienlong.jpg",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/images/butthienlong.jpg",
       "AssetKind": "All",
@@ -1480,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\butthienlong.jpg"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\coffee-beans-2258839-960.jpg",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\coffee-beans-2258839-960.jpg",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/images/coffee-beans-2258839-960.jpg",
       "AssetKind": "All",
@@ -1499,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\coffee-beans-2258839-960.jpg"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\coffee-icon-sign-symbol-design-free-png.webp",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\coffee-icon-sign-symbol-design-free-png.webp",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/images/coffee-icon-sign-symbol-design-free-png.webp",
       "AssetKind": "All",
@@ -1518,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\coffee-icon-sign-symbol-design-free-png.webp"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\giancarlo-duarte-rthw0pwclhw-unsplash-815x543.jpg",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\giancarlo-duarte-rthw0pwclhw-unsplash-815x543.jpg",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/images/giancarlo-duarte-rthw0pwclhw-unsplash-815x543.jpg",
       "AssetKind": "All",
@@ -1537,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\giancarlo-duarte-rthw0pwclhw-unsplash-815x543.jpg"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\giayA4.jpg",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\giayA4.jpg",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/images/giayA4.jpg",
       "AssetKind": "All",
@@ -1556,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\giayA4.jpg"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\hashes.json",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\hashes.json",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/images/hashes.json",
       "AssetKind": "All",
@@ -1575,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\hashes.json"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\hopbut.jpg",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\hopbut.jpg",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/images/hopbut.jpg",
       "AssetKind": "All",
@@ -1594,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\hopbut.jpg"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\jeremy-yap-jn-hagwe4yw-unsplash-815x1223.jpg",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\jeremy-yap-jn-hagwe4yw-unsplash-815x1223.jpg",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/images/jeremy-yap-jn-hagwe4yw-unsplash-815x1223.jpg",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\jeremy-yap-jn-hagwe4yw-unsplash-815x1223.jpg"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\keovanphong.jpg",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\keovanphong.jpg",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/images/keovanphong.jpg",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\keovanphong.jpg"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\keovanphong1.jpg",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\keovanphong1.jpg",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/images/keovanphong1.jpg",
       "AssetKind": "All",
@@ -1651,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\keovanphong1.jpg"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\mbr-1920x1372.jpg",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\mbr-1920x1372.jpg",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/images/mbr-1920x1372.jpg",
       "AssetKind": "All",
@@ -1670,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\mbr-1920x1372.jpg"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\mohammad-amirahmadi-tk2ifgn60xo-unsplash-815x1019.jpg",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\mohammad-amirahmadi-tk2ifgn60xo-unsplash-815x1019.jpg",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/images/mohammad-amirahmadi-tk2ifgn60xo-unsplash-815x1019.jpg",
       "AssetKind": "All",
@@ -1689,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\mohammad-amirahmadi-tk2ifgn60xo-unsplash-815x1019.jpg"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\nathan-dumlao-nbjho6wmrww-unsplash-815x1223.jpg",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\nathan-dumlao-nbjho6wmrww-unsplash-815x1223.jpg",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/images/nathan-dumlao-nbjho6wmrww-unsplash-815x1223.jpg",
       "AssetKind": "All",
@@ -1708,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\nathan-dumlao-nbjho6wmrww-unsplash-815x1223.jpg"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\sotay.jpg",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\sotay.jpg",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/images/sotay.jpg",
       "AssetKind": "All",
@@ -1727,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\sotay.jpg"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\tap200trang.jpg",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\tap200trang.jpg",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/images/tap200trang.jpg",
       "AssetKind": "All",
@@ -1746,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\tap200trang.jpg"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\tetiana-shyshkina-4lqjr8gu-bg-unsplash-815x1222.jpg",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\tetiana-shyshkina-4lqjr8gu-bg-unsplash-815x1222.jpg",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/images/tetiana-shyshkina-4lqjr8gu-bg-unsplash-815x1222.jpg",
       "AssetKind": "All",
@@ -1765,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\tetiana-shyshkina-4lqjr8gu-bg-unsplash-815x1222.jpg"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\thuocke30cm.jpg",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\thuocke30cm.jpg",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/images/thuocke30cm.jpg",
       "AssetKind": "All",
@@ -1784,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\thuocke30cm.jpg"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\mobirise\\css\\mbr-additional.css",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\mobirise\\css\\mbr-additional.css",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/mobirise/css/mbr-additional.css",
       "AssetKind": "All",
@@ -1803,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\mobirise\\css\\mbr-additional.css"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\parallax\\jarallax.css",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\parallax\\jarallax.css",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/parallax/jarallax.css",
       "AssetKind": "All",
@@ -1822,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\parallax\\jarallax.css"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\parallax\\jarallax.js",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\parallax\\jarallax.js",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/parallax/jarallax.js",
       "AssetKind": "All",
@@ -1841,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\parallax\\jarallax.js"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\smoothscroll\\smooth-scroll.js",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\smoothscroll\\smooth-scroll.js",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/smoothscroll/smooth-scroll.js",
       "AssetKind": "All",
@@ -1860,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\smoothscroll\\smooth-scroll.js"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\socicon\\css\\styles.css",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\socicon\\css\\styles.css",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/socicon/css/styles.css",
       "AssetKind": "All",
@@ -1879,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\socicon\\css\\styles.css"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\socicon\\fonts\\socicon.eot",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\socicon\\fonts\\socicon.eot",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/socicon/fonts/socicon.eot",
       "AssetKind": "All",
@@ -1898,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\socicon\\fonts\\socicon.eot"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\socicon\\fonts\\socicon.svg",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\socicon\\fonts\\socicon.svg",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/socicon/fonts/socicon.svg",
       "AssetKind": "All",
@@ -1917,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\socicon\\fonts\\socicon.svg"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\socicon\\fonts\\socicon.ttf",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\socicon\\fonts\\socicon.ttf",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/socicon/fonts/socicon.ttf",
       "AssetKind": "All",
@@ -1936,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\socicon\\fonts\\socicon.ttf"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\socicon\\fonts\\socicon.woff",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\socicon\\fonts\\socicon.woff",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/socicon/fonts/socicon.woff",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\socicon\\fonts\\socicon.woff"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\socicon\\fonts\\socicon.woff2",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\socicon\\fonts\\socicon.woff2",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/socicon/fonts/socicon.woff2",
       "AssetKind": "All",
@@ -1974,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\socicon\\fonts\\socicon.woff2"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\theme\\css\\style.css",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\theme\\css\\style.css",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/theme/css/style.css",
       "AssetKind": "All",
@@ -1993,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\theme\\css\\style.css"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\theme\\js\\script.js",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\theme\\js\\script.js",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/theme/js/script.js",
       "AssetKind": "All",
@@ -2012,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\theme\\js\\script.js"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\web\\assets\\mobirise-icons2\\mobirise2.css",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\web\\assets\\mobirise-icons2\\mobirise2.css",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/web/assets/mobirise-icons2/mobirise2.css",
       "AssetKind": "All",
@@ -2031,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\web\\assets\\mobirise-icons2\\mobirise2.css"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\web\\assets\\mobirise-icons2\\mobirise2.eot",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\web\\assets\\mobirise-icons2\\mobirise2.eot",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/web/assets/mobirise-icons2/mobirise2.eot",
       "AssetKind": "All",
@@ -2050,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\web\\assets\\mobirise-icons2\\mobirise2.eot"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\web\\assets\\mobirise-icons2\\mobirise2.svg",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\web\\assets\\mobirise-icons2\\mobirise2.svg",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/web/assets/mobirise-icons2/mobirise2.svg",
       "AssetKind": "All",
@@ -2069,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\web\\assets\\mobirise-icons2\\mobirise2.svg"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\web\\assets\\mobirise-icons2\\mobirise2.ttf",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\web\\assets\\mobirise-icons2\\mobirise2.ttf",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/web/assets/mobirise-icons2/mobirise2.ttf",
       "AssetKind": "All",
@@ -2088,10 +2088,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\web\\assets\\mobirise-icons2\\mobirise2.ttf"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\web\\assets\\mobirise-icons2\\mobirise2.woff",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\web\\assets\\mobirise-icons2\\mobirise2.woff",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/web/assets/mobirise-icons2/mobirise2.woff",
       "AssetKind": "All",
@@ -2107,10 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\web\\assets\\mobirise-icons2\\mobirise2.woff"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.css",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.css",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.css",
       "AssetKind": "All",
@@ -2126,10 +2126,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.css"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.eot",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.eot",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.eot",
       "AssetKind": "All",
@@ -2145,10 +2145,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.eot"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.svg",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.svg",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.svg",
       "AssetKind": "All",
@@ -2164,10 +2164,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.svg"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.ttf",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.ttf",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.ttf",
       "AssetKind": "All",
@@ -2183,10 +2183,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.ttf"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.woff",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.woff",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.woff",
       "AssetKind": "All",
@@ -2202,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.woff"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\ytplayer\\index.js",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\ytplayer\\index.js",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "assets/ytplayer/index.js",
       "AssetKind": "All",
@@ -2221,10 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\ytplayer\\index.js"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\css\\admin.css",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\css\\admin.css",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "css/admin.css",
       "AssetKind": "All",
@@ -2240,10 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\css\\admin.css"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\css\\cart.css",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\css\\cart.css",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "css/cart.css",
       "AssetKind": "All",
@@ -2259,10 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\css\\cart.css"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\css\\site.css",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\css\\site.css",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\css\\wireframe.css",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\css\\wireframe.css",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "css/wireframe.css",
       "AssetKind": "All",
@@ -2297,10 +2297,10 @@
       "OriginalItemSpec": "wwwroot\\css\\wireframe.css"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\favicon.ico",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\favicon.ico",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -2316,10 +2316,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\js\\site.js",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\js\\site.js",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -2335,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -2354,10 +2354,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -2373,10 +2373,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -2392,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -2411,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -2430,10 +2430,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -2449,10 +2449,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -2468,10 +2468,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -2487,10 +2487,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -2506,10 +2506,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -2525,10 +2525,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -2544,10 +2544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -2563,10 +2563,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -2582,10 +2582,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -2601,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -2620,10 +2620,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -2639,10 +2639,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -2658,10 +2658,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -2677,10 +2677,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -2696,10 +2696,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2715,10 +2715,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2734,10 +2734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2753,10 +2753,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2772,10 +2772,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2791,10 +2791,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2810,10 +2810,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2829,10 +2829,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2848,10 +2848,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2867,10 +2867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2886,10 +2886,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2905,10 +2905,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2924,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2943,10 +2943,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2962,10 +2962,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2981,10 +2981,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -3000,10 +3000,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -3019,10 +3019,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -3038,10 +3038,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -3057,10 +3057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -3076,10 +3076,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -3095,10 +3095,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -3114,10 +3114,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -3133,10 +3133,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -3152,10 +3152,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -3171,10 +3171,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -3190,10 +3190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -3209,10 +3209,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -3228,10 +3228,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -3247,10 +3247,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -3266,10 +3266,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -3285,10 +3285,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -3304,10 +3304,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -3323,10 +3323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -3342,10 +3342,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -3361,10 +3361,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -3380,10 +3380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -3399,10 +3399,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "ShopVanPhongPham",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
+      "ContentRoot": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\",
       "BasePath": "_content/ShopVanPhongPham",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

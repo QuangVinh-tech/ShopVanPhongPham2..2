@@ -1,40 +1,40 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ShopVanPhongPham.Helpers;
 using ShopVanPhongPham.Models.Interfaces;
+using ShopVanPhongPham.Data; 
 
 namespace ShopVanPhongPham.Controllers;
 
 public class ProductController : Controller
 {
     private readonly IProductRepository _productRepo;
+    private readonly AppDbContext _context;
 
-    public ProductController(IProductRepository productRepo)
+    public ProductController(IProductRepository productRepo, AppDbContext context)
     {
         _productRepo = productRepo;
+        _context = context;
     }
-
     public IActionResult Shop(string? search, string? category)
     {
         var allProducts = _productRepo.GetAllProducts();
 
-        var categories = allProducts
-            .Where(p => !string.IsNullOrEmpty(p.Category))
-            .Select(p => p.Category!)
-            .Distinct()
-            .OrderBy(c => c)
-            .ToList();
+        var categories = _context.Categories
+            .OrderBy(c => c.Name)
+            .Select(c => c.Name)
+            .ToList();  
 
         var products = allProducts.AsEnumerable();
 
         if (!string.IsNullOrEmpty(search))
         {
-            var keyword = StringHelper.RemoveDiacritics(search);   // ← thay đoạn cũ
+            var keyword = StringHelper.RemoveDiacritics(search);
             products = products.Where(p =>
                 StringHelper.RemoveDiacritics(p.Name).Contains(keyword));
         }
 
         if (!string.IsNullOrEmpty(category))
-            products = products.Where(p => p.Category == category);
+            products = products.Where(p => p.Category != null && p.Category.Name == category);
 
         ViewBag.Search = search;
         ViewBag.Category = category;

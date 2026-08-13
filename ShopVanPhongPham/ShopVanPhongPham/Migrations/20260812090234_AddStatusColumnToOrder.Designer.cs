@@ -12,8 +12,8 @@ using ShopVanPhongPham.Data;
 namespace ShopVanPhongPham.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260627091217_AddPaymentFieldsToOrder")]
-    partial class AddPaymentFieldsToOrder
+    [Migration("20260812090234_AddStatusColumnToOrder")]
+    partial class AddStatusColumnToOrder
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

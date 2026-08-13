@@ -8080,11 +8080,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham.csproj",
+      "projectUniqueName": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham.csproj",
       "projectName": "ShopVanPhongPham",
-      "projectPath": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham.csproj",
+      "projectPath": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "D:\\Kiemthu\\ShopVanPhongPham\\ShopVanPhongPham\\obj\\",
+      "outputPath": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\NuGetPackages"

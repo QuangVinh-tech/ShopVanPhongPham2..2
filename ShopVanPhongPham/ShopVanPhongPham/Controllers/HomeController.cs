@@ -19,22 +19,35 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        var products = _productRepo.GetAllProducts(); 
+        var products = _productRepo.GetAllProducts();
+        ViewBag.Categories = products
+            .Where(p => p.Category != null)
+            .GroupBy(p => p.Category!.Name)
+            .Select(g => new { Name = g.Key, Count = g.Count() })
+            .OrderBy(c => c.Name)
+            .ToList();
         return View(products.ToList());
     }
 
     public IActionResult Contact() => View();
+
     [Authorize]
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Contact(string fullName, string email, string phone, string subject, string message)
+    public async Task<IActionResult> Contact(
+        string fullName,
+        string email,
+        string phone,
+        string subject,
+        string message)
     {
-        if (string.IsNullOrWhiteSpace(fullName) || string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(message))
+        if (string.IsNullOrWhiteSpace(fullName) ||
+            string.IsNullOrWhiteSpace(email) ||
+            string.IsNullOrWhiteSpace(message))
         {
             TempData["ErrorMessage"] = "Vui lòng điền đầy đủ thông tin bắt buộc.";
             return RedirectToAction("Contact");
         }
-
         var contactMessage = new ContactMessage
         {
             FullName = fullName,
@@ -45,11 +58,10 @@ public class HomeController : Controller
             SentAt = DateTime.Now,
             IsRead = false
         };
-
         _context.ContactMessages.Add(contactMessage);
         await _context.SaveChangesAsync();
-
-        TempData["SuccessMessage"] = "Cảm ơn bạn đã liên hệ! Chúng tôi sẽ phản hồi sớm nhất có thể.";
+        TempData["SuccessMessage"] =
+            "Cảm ơn bạn đã liên hệ! Chúng tôi sẽ phản hồi sớm nhất có thể.";
         return RedirectToAction("Contact");
     }
 }

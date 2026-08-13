@@ -12,8 +12,8 @@ using ShopVanPhongPham.Data;
 namespace ShopVanPhongPham.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260606135147_AddIdentity")]
-    partial class AddIdentity
+    [Migration("20260813010815_AddCategoryTable")]
+    partial class AddCategoryTable
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -227,6 +227,86 @@ namespace ShopVanPhongPham.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("ShopVanPhongPham.Models.Category", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Category");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "But"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "So"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "DungCu"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Name = "Giay"
+                        });
+                });
+
+            modelBuilder.Entity("ShopVanPhongPham.Models.ContactMessage", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("AdminNote")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FullName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsRead")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Message")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Phone")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("SentAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Subject")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ContactMessages");
+                });
+
             modelBuilder.Entity("ShopVanPhongPham.Models.Order", b =>
                 {
                     b.Property<int>("Id")
@@ -253,7 +333,18 @@ namespace ShopVanPhongPham.Migrations
                     b.Property<decimal>("OrderTotal")
                         .HasColumnType("decimal(18,2)");
 
+                    b.Property<string>("PaymentMethod")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PaymentStatus")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Phone")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Status")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -298,9 +389,8 @@ namespace ShopVanPhongPham.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Category")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Description")
                         .IsRequired()
@@ -319,13 +409,15 @@ namespace ShopVanPhongPham.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("CategoryId");
+
                     b.ToTable("Products");
 
                     b.HasData(
                         new
                         {
                             Id = 1,
-                            Category = "But",
+                            CategoryId = 1,
                             Description = "",
                             ImageUrl = "/assets/images/butthienlong.jpg",
                             Name = "Bút bi Thiên Long",
@@ -334,7 +426,7 @@ namespace ShopVanPhongPham.Migrations
                         new
                         {
                             Id = 2,
-                            Category = "But",
+                            CategoryId = 1,
                             Description = "",
                             ImageUrl = "/assets/images/butchib2.jpg",
                             Name = "Bút chì 2B",
@@ -343,7 +435,7 @@ namespace ShopVanPhongPham.Migrations
                         new
                         {
                             Id = 3,
-                            Category = "So",
+                            CategoryId = 2,
                             Description = "",
                             ImageUrl = "/assets/images/sotay.jpg",
                             Name = "Sổ tay A5",
@@ -352,7 +444,7 @@ namespace ShopVanPhongPham.Migrations
                         new
                         {
                             Id = 4,
-                            Category = "So",
+                            CategoryId = 2,
                             Description = "",
                             ImageUrl = "/assets/images/tap200trang.jpg",
                             Name = "Tập 200 trang",
@@ -361,7 +453,7 @@ namespace ShopVanPhongPham.Migrations
                         new
                         {
                             Id = 5,
-                            Category = "DungCu",
+                            CategoryId = 3,
                             Description = "",
                             ImageUrl = "/assets/images/thuocke30cm.jpg",
                             Name = "Thước kẻ 30cm",
@@ -370,7 +462,7 @@ namespace ShopVanPhongPham.Migrations
                         new
                         {
                             Id = 6,
-                            Category = "DungCu",
+                            CategoryId = 3,
                             Description = "",
                             ImageUrl = "/assets/images/keovanphong1.jpg",
                             Name = "Kéo văn phòng",
@@ -379,7 +471,7 @@ namespace ShopVanPhongPham.Migrations
                         new
                         {
                             Id = 7,
-                            Category = "DungCu",
+                            CategoryId = 3,
                             Description = "",
                             ImageUrl = "/assets/images/bamkim.jpg",
                             Name = "Bấm kim",
@@ -388,7 +480,7 @@ namespace ShopVanPhongPham.Migrations
                         new
                         {
                             Id = 8,
-                            Category = "Giay",
+                            CategoryId = 4,
                             Description = "",
                             ImageUrl = "/assets/images/giayA4.jpg",
                             Name = "Giấy A4 500 tờ",
@@ -397,7 +489,7 @@ namespace ShopVanPhongPham.Migrations
                         new
                         {
                             Id = 9,
-                            Category = "DungCu",
+                            CategoryId = 3,
                             Description = "",
                             ImageUrl = "/assets/images/bangkeo.png",
                             Name = "Băng keo trong",
@@ -406,7 +498,7 @@ namespace ShopVanPhongPham.Migrations
                         new
                         {
                             Id = 10,
-                            Category = "DungCu",
+                            CategoryId = 3,
                             Description = "",
                             ImageUrl = "/assets/images/hopbut.jpg",
                             Name = "Hộp bút để bàn",
@@ -507,6 +599,17 @@ namespace ShopVanPhongPham.Migrations
                     b.Navigation("Order");
 
                     b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("ShopVanPhongPham.Models.Product", b =>
+                {
+                    b.HasOne("ShopVanPhongPham.Models.Category", "Category")
+                        .WithMany()
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
                 });
 
             modelBuilder.Entity("ShopVanPhongPham.Models.ShoppingCartItem", b =>
