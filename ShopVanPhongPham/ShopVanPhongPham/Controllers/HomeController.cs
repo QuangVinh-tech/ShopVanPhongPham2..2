@@ -19,7 +19,15 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        var products = _productRepo.GetAllProducts(); 
+        var products = _productRepo.GetAllProducts();
+
+        ViewBag.Categories = products
+            .Where(p => !string.IsNullOrEmpty(p.Category))
+            .GroupBy(p => p.Category)
+            .Select(g => new { Name = g.Key, Count = g.Count() })
+            .OrderBy(c => c.Name)
+            .ToList();
+
         return View(products.ToList());
     }
 

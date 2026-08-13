@@ -440,6 +440,168 @@ a {
     margin-top: 1.5rem;
     overflow: hidden;
 }
+/* Hero carousel */
+/* Hero carousel */
+.wf-hero-carousel .wf-hero {
+    border-radius: 0;
+    border: none;
+    justify-content: flex-start;
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    min-height: 300px;
+}
+
+    .wf-hero-carousel .wf-hero > div:first-child {
+        max-width: 480px;
+    }
+
+.wf-hero-carousel {
+    border: 1px solid var(--wf-border);
+    border-radius: var(--wf-radius);
+    overflow: hidden;
+}
+
+.wf-hero-alt {
+    background: #efe6d2;
+}
+
+.wf-hero-tag {
+    display: inline-block;
+    background: var(--wf-black);
+    color: #fff;
+    font-size: .72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    padding: .3rem .7rem;
+    border-radius: 999px;
+    margin-bottom: .9rem;
+}
+
+.wf-hero-tag-light {
+    background: #fff;
+    color: var(--wf-black);
+}
+
+.wf-carousel-arrow {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: #fff;
+    border: 1px solid var(--wf-border-strong);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--wf-black);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 3.5rem;
+    opacity: 1;
+}
+
+.wf-carousel-indicators {
+    position: absolute;
+    bottom: 1rem;
+}
+
+    .wf-carousel-indicators button {
+        width: 8px !important;
+        height: 8px !important;
+        border-radius: 50%;
+        background-color: var(--wf-muted) !important;
+        border: none !important;
+        opacity: .5;
+    }
+
+        .wf-carousel-indicators button.active {
+            background-color: var(--wf-black) !important;
+            opacity: 1;
+        }
+
+/* Promo banner (giữa trang) */
+.wf-promo-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    background: var(--wf-black);
+    color: #fff;
+    border-radius: var(--wf-radius);
+    padding: 2rem 2.25rem;
+    margin-top: 2.5rem;
+}
+
+    .wf-promo-banner h3 {
+        font-weight: 800;
+        margin-bottom: .4rem;
+    }
+
+    .wf-promo-banner p {
+        color: #cfcfcf;
+        margin-bottom: 0;
+        font-size: .9rem;
+    }
+
+    .wf-promo-banner .btn-wf-outline {
+        background: transparent;
+        border-color: #fff;
+        color: #fff;
+        flex-shrink: 0;
+    }
+
+        .wf-promo-banner .btn-wf-outline:hover {
+            background: #fff;
+            color: var(--wf-black);
+        }
+
+/* Newsletter */
+.wf-newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    background: var(--wf-bg-soft);
+    border: 1px solid var(--wf-border);
+    border-radius: var(--wf-radius);
+    padding: 2rem 2.25rem;
+    margin-top: 2.5rem;
+}
+
+    .wf-newsletter h4 {
+        font-weight: 800;
+        margin-bottom: .3rem;
+    }
+
+    .wf-newsletter p {
+        color: var(--wf-muted);
+        margin-bottom: 0;
+        font-size: .88rem;
+    }
+
+.wf-newsletter-form {
+    display: flex;
+    gap: .6rem;
+    flex-wrap: wrap;
+}
+
+    .wf-newsletter-form input {
+        min-width: 240px;
+        border: 1px solid var(--wf-border-strong);
+        border-radius: 8px;
+    }
+
+@media (max-width: 767.98px) {
+    .wf-promo-banner,
+    .wf-newsletter {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
 
 .wf-feature {
     flex: 1;
