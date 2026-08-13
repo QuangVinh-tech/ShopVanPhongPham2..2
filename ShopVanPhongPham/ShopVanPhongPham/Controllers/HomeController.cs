@@ -15,6 +15,7 @@ public class HomeController : Controller
     {
         _productRepo = productRepo;
         _context = context;
+<<<<<<< HEAD
     }
 
     public IActionResult Index()
@@ -29,6 +30,22 @@ public class HomeController : Controller
             .ToList();
 
         return View(products.ToList());
+=======
+    }
+
+    public IActionResult Index()
+    {
+        var products = _productRepo.GetAllProducts();
+
+        ViewBag.Categories = products
+            .Where(p => !string.IsNullOrEmpty(p.Category))
+            .GroupBy(p => p.Category)
+            .Select(g => new { Name = g.Key, Count = g.Count() })
+            .OrderBy(c => c.Name)
+            .ToList();
+
+        return View(products.ToList());
+>>>>>>> origin/main
     }
 
     public IActionResult Contact() => View();
