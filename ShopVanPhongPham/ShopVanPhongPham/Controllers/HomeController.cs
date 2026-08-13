@@ -15,7 +15,6 @@ public class HomeController : Controller
     {
         _productRepo = productRepo;
         _context = context;
-<<<<<<< HEAD
     }
 
     public IActionResult Index()
@@ -30,31 +29,23 @@ public class HomeController : Controller
             .ToList();
 
         return View(products.ToList());
-=======
-    }
-
-    public IActionResult Index()
-    {
-        var products = _productRepo.GetAllProducts();
-
-        ViewBag.Categories = products
-            .Where(p => !string.IsNullOrEmpty(p.Category))
-            .GroupBy(p => p.Category)
-            .Select(g => new { Name = g.Key, Count = g.Count() })
-            .OrderBy(c => c.Name)
-            .ToList();
-
-        return View(products.ToList());
->>>>>>> origin/main
     }
 
     public IActionResult Contact() => View();
+
     [Authorize]
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Contact(string fullName, string email, string phone, string subject, string message)
+    public async Task<IActionResult> Contact(
+        string fullName,
+        string email,
+        string phone,
+        string subject,
+        string message)
     {
-        if (string.IsNullOrWhiteSpace(fullName) || string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(message))
+        if (string.IsNullOrWhiteSpace(fullName) ||
+            string.IsNullOrWhiteSpace(email) ||
+            string.IsNullOrWhiteSpace(message))
         {
             TempData["ErrorMessage"] = "Vui lòng điền đầy đủ thông tin bắt buộc.";
             return RedirectToAction("Contact");
@@ -74,7 +65,9 @@ public class HomeController : Controller
         _context.ContactMessages.Add(contactMessage);
         await _context.SaveChangesAsync();
 
-        TempData["SuccessMessage"] = "Cảm ơn bạn đã liên hệ! Chúng tôi sẽ phản hồi sớm nhất có thể.";
+        TempData["SuccessMessage"] =
+            "Cảm ơn bạn đã liên hệ! Chúng tôi sẽ phản hồi sớm nhất có thể.";
+
         return RedirectToAction("Contact");
     }
 }
