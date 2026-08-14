@@ -1,0 +1,10 @@
+D:\ShopVanPhongPham\ShopVanPhongPham\obj\Debug\net8.0\ShopVanPhongPham.csproj.AssemblyReference.cache
+D:\ShopVanPhongPham\ShopVanPhongPham\obj\Debug\net8.0\ShopVanPhongPham.GeneratedMSBuildEditorConfig.editorconfig
+D:\ShopVanPhongPham\ShopVanPhongPham\obj\Debug\net8.0\ShopVanPhongPham.AssemblyInfoInputs.cache
+D:\ShopVanPhongPham\ShopVanPhongPham\obj\Debug\net8.0\ShopVanPhongPham.AssemblyInfo.cs
+D:\ShopVanPhongPham\ShopVanPhongPham\obj\Debug\net8.0\ShopVanPhongPham.csproj.CoreCompileInputs.cache
+D:\ShopVanPhongPham\ShopVanPhongPham\obj\Debug\net8.0\ShopVanPhongPham.MvcApplicationPartsAssemblyInfo.cs
+D:\ShopVanPhongPham\ShopVanPhongPham\obj\Debug\net8.0\ShopVanPhongPham.MvcApplicationPartsAssemblyInfo.cache
+D:\ShopVanPhongPham\ShopVanPhongPham\obj\Debug\net8.0\ShopVanPhongPham.RazorAssemblyInfo.cache
+D:\ShopVanPhongPham\ShopVanPhongPham\obj\Debug\net8.0\ShopVanPhongPham.RazorAssemblyInfo.cs
+D:\ShopVanPhongPham\ShopVanPhongPham\obj\Debug\net8.0\ShopVanPhongPham.sourcelink.json
