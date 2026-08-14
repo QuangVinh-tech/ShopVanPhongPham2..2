@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\models\\promotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\models\\promotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -102,7 +102,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -110,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Promotion.cs",
               "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Models\\Promotion.cs",
               "RelativeDocumentMoniker": "ShopVanPhongPham\\Models\\Promotion.cs",
@@ -118,20 +118,7 @@
               "RelativeToolTip": "ShopVanPhongPham\\Models\\Promotion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-13T07:30:30.594Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "ShopVanPhongPham\\Views\\_ViewImports.cshtml",
-              "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "ShopVanPhongPham\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-12T08:03:31.508Z"
+              "WhenOpened": "2026-08-13T07:30:30.594Z"
             },
             {
               "$type": "Document",
@@ -183,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "ShopVanPhongPham\\Data\\AppDbContext.cs",
@@ -195,15 +182,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\appsettings.json",
               "RelativeDocumentMoniker": "ShopVanPhongPham\\appsettings.json",
               "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\appsettings.json",
               "RelativeToolTip": "ShopVanPhongPham\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-12T08:06:51.789Z"
+              "WhenOpened": "2026-08-12T08:06:51.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ShopVanPhongPham\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "ShopVanPhongPham\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-12T08:03:31.508Z"
             },
             {
               "$type": "Document",
