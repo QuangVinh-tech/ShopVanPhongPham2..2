@@ -7,12 +7,88 @@
       "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\areas\\admin\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\areas\\admin\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\views\\orders\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\views\\orders\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\controllers\\promotioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\controllers\\promotioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\areas\\admin\\controllers\\promotioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\areas\\admin\\controllers\\promotioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\areas\\admin\\views\\promotion\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\areas\\admin\\views\\promotion\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\areas\\admin\\views\\promotion\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\areas\\admin\\views\\promotion\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\areas\\admin\\views\\promotion\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\areas\\admin\\views\\promotion\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\areas\\admin\\views\\promotion\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\areas\\admin\\views\\promotion\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\models\\promotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\models\\promotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\migrations\\20260815150449_addcategorytable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\migrations\\20260815150449_addcategorytable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\views\\shared\\_product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\views\\shared\\_product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -35,10 +111,6 @@
       "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\views\\shared\\_product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\views\\shared\\_product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -59,10 +131,6 @@
       "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\views\\orders\\checkoutcomplete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\views\\orders\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\views\\orders\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -75,14 +143,6 @@
       "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\models\\interfaces\\ishoppingcartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\models\\interfaces\\ishoppingcartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -91,8 +151,12 @@
       "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\models\\shoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\migrations\\20260815152212_addpromotions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\migrations\\20260815152212_addpromotions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|d:\\shopvanphongpham\\shopvanphongpham\\shopvanphongpham\\migrations\\20260815150539_adddiscounttoorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB81B2C0-ABF9-4C7D-97A2-04830C18B81A}|ShopVanPhongPham\\ShopVanPhongPham.csproj|solutionrelative:shopvanphongpham\\migrations\\20260815150539_adddiscounttoorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -102,7 +166,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -111,54 +175,272 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Areas\\Admin\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShopVanPhongPham\\Areas\\Admin\\Views\\Order\\Index.cshtml",
+              "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Areas\\Admin\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "ShopVanPhongPham\\Areas\\Admin\\Views\\Order\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-17T14:24:26.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ShopVanPhongPham\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ShopVanPhongPham\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T14:06:15.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "ShopVanPhongPham\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "ShopVanPhongPham\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAUwDMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-15T15:38:47.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PromotionController.cs",
+              "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Areas\\Admin\\Controllers\\PromotionController.cs",
+              "RelativeDocumentMoniker": "ShopVanPhongPham\\Areas\\Admin\\Controllers\\PromotionController.cs",
+              "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Areas\\Admin\\Controllers\\PromotionController.cs",
+              "RelativeToolTip": "ShopVanPhongPham\\Areas\\Admin\\Controllers\\PromotionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T15:16:03.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PromotionController.cs",
+              "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Controllers\\PromotionController.cs",
+              "RelativeDocumentMoniker": "ShopVanPhongPham\\Controllers\\PromotionController.cs",
+              "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Controllers\\PromotionController.cs",
+              "RelativeToolTip": "ShopVanPhongPham\\Controllers\\PromotionController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T15:17:26.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\appsettings.json",
+              "RelativeDocumentMoniker": "ShopVanPhongPham\\appsettings.json",
+              "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\appsettings.json",
+              "RelativeToolTip": "ShopVanPhongPham\\appsettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-12T08:06:51.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "ShopVanPhongPham\\Controllers\\OrdersController.cs",
+              "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "ShopVanPhongPham\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAA6wJsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T14:06:16.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ShoppingCartController.cs",
+              "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Controllers\\ShoppingCartController.cs",
+              "RelativeDocumentMoniker": "ShopVanPhongPham\\Controllers\\ShoppingCartController.cs",
+              "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Controllers\\ShoppingCartController.cs",
+              "RelativeToolTip": "ShopVanPhongPham\\Controllers\\ShoppingCartController.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAkwFwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T07:38:52.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Views\\ShoppingCart\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShopVanPhongPham\\Views\\ShoppingCart\\Index.cshtml",
+              "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Views\\ShoppingCart\\Index.cshtml",
+              "RelativeToolTip": "ShopVanPhongPham\\Views\\ShoppingCart\\Index.cshtml",
+              "ViewState": "AgIAAA0BAAAAAAAAAAAkwMoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-12T07:36:05.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Views\\Orders\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "ShopVanPhongPham\\Views\\Orders\\Checkout.cshtml",
+              "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Views\\Orders\\Checkout.cshtml",
+              "RelativeToolTip": "ShopVanPhongPham\\Views\\Orders\\Checkout.cshtml",
+              "ViewState": "AgIAACEBAAAAAAAAAAAkwCoBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-12T08:01:52.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Areas\\Admin\\Views\\Promotion\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ShopVanPhongPham\\Areas\\Admin\\Views\\Promotion\\Edit.cshtml",
+              "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Areas\\Admin\\Views\\Promotion\\Edit.cshtml",
+              "RelativeToolTip": "ShopVanPhongPham\\Areas\\Admin\\Views\\Promotion\\Edit.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwFYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-15T15:41:40.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Areas\\Admin\\Views\\Promotion\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShopVanPhongPham\\Areas\\Admin\\Views\\Promotion\\Index.cshtml",
+              "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Areas\\Admin\\Views\\Promotion\\Index.cshtml",
+              "RelativeToolTip": "ShopVanPhongPham\\Areas\\Admin\\Views\\Promotion\\Index.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAkwEEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-15T15:41:19.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Areas\\Admin\\Views\\Promotion\\Create.cshtml",
+              "RelativeDocumentMoniker": "ShopVanPhongPham\\Areas\\Admin\\Views\\Promotion\\Create.cshtml",
+              "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Areas\\Admin\\Views\\Promotion\\Create.cshtml",
+              "RelativeToolTip": "ShopVanPhongPham\\Areas\\Admin\\Views\\Promotion\\Create.cshtml",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAkwFsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-15T15:41:30.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Areas\\Admin\\Views\\Promotion\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ShopVanPhongPham\\Areas\\Admin\\Views\\Promotion\\Delete.cshtml",
+              "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Areas\\Admin\\Views\\Promotion\\Delete.cshtml",
+              "RelativeToolTip": "ShopVanPhongPham\\Areas\\Admin\\Views\\Promotion\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-15T15:41:51.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "ShopVanPhongPham\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "ShopVanPhongPham\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T15:15:04.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ShopVanPhongPham\\Models\\Product.cs",
+              "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Models\\Product.cs",
+              "RelativeToolTip": "ShopVanPhongPham\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T15:13:11.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20260815152212_AddPromotions.cs",
+              "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Migrations\\20260815152212_AddPromotions.cs",
+              "RelativeDocumentMoniker": "ShopVanPhongPham\\Migrations\\20260815152212_AddPromotions.cs",
+              "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Migrations\\20260815152212_AddPromotions.cs",
+              "RelativeToolTip": "ShopVanPhongPham\\Migrations\\20260815152212_AddPromotions.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T15:22:12.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Promotion.cs",
               "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Models\\Promotion.cs",
               "RelativeDocumentMoniker": "ShopVanPhongPham\\Models\\Promotion.cs",
               "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Models\\Promotion.cs",
               "RelativeToolTip": "ShopVanPhongPham\\Models\\Promotion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-13T07:30:30.594Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "ShopVanPhongPham\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "ShopVanPhongPham\\Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-12T08:03:05.16Z"
+              "DocumentIndex": 38,
+              "Title": "20260815150539_AddDiscountToOrder.cs",
+              "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Migrations\\20260815150539_AddDiscountToOrder.cs",
+              "RelativeDocumentMoniker": "ShopVanPhongPham\\Migrations\\20260815150539_AddDiscountToOrder.cs",
+              "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Migrations\\20260815150539_AddDiscountToOrder.cs",
+              "RelativeToolTip": "ShopVanPhongPham\\Migrations\\20260815150539_AddDiscountToOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T15:05:39.307Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ShopVanPhongPham\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ShopVanPhongPham\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T04:04:09.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20260815150449_AddCategoryTable.cs",
+              "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Migrations\\20260815150449_AddCategoryTable.cs",
+              "RelativeDocumentMoniker": "ShopVanPhongPham\\Migrations\\20260815150449_AddCategoryTable.cs",
+              "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Migrations\\20260815150449_AddCategoryTable.cs",
+              "RelativeToolTip": "ShopVanPhongPham\\Migrations\\20260815150449_AddCategoryTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T15:04:50.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "_Product.cshtml",
               "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Views\\Shared\\_Product.cshtml",
               "RelativeDocumentMoniker": "ShopVanPhongPham\\Views\\Shared\\_Product.cshtml",
               "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Views\\Shared\\_Product.cshtml",
               "RelativeToolTip": "ShopVanPhongPham\\Views\\Shared\\_Product.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-08-12T08:02:52.284Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "ShopVanPhongPham\\Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "ShopVanPhongPham\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AgIAACsAAAAAAAAAAAAAAEQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-12T08:02:47.59Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 22,
               "Title": "Contact.cshtml",
               "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Views\\Home\\Contact.cshtml",
               "RelativeDocumentMoniker": "ShopVanPhongPham\\Views\\Home\\Contact.cshtml",
@@ -170,32 +452,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "ShopVanPhongPham\\Data\\AppDbContext.cs",
-              "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "ShopVanPhongPham\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAIwBEAAAA4AAAAAAAAAA==",
+              "DocumentIndex": 27,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "ShopVanPhongPham\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "ShopVanPhongPham\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAEQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-12T08:02:47.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "ShopVanPhongPham\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "ShopVanPhongPham\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-12T08:03:05.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "ShopVanPhongPham\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "ShopVanPhongPham\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAN4AAAAAAAAAAAAUwOAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-11T04:04:09.267Z"
+              "WhenOpened": "2026-08-11T04:08:58.66Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\appsettings.json",
-              "RelativeDocumentMoniker": "ShopVanPhongPham\\appsettings.json",
-              "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\appsettings.json",
-              "RelativeToolTip": "ShopVanPhongPham\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-12T08:06:51.789Z",
-              "EditorCaption": ""
+              "DocumentIndex": 21,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "ShopVanPhongPham\\Models\\Order.cs",
+              "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Models\\Order.cs",
+              "RelativeToolTip": "ShopVanPhongPham\\Models\\Order.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA3wBAAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T14:52:20.222Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 24,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "ShopVanPhongPham\\Views\\_ViewImports.cshtml",
@@ -207,7 +512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 23,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "ShopVanPhongPham\\Views\\_ViewStart.cshtml",
@@ -219,7 +524,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 26,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "ShopVanPhongPham\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -231,7 +536,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 28,
               "Title": "Shop.cshtml",
               "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Views\\Product\\Shop.cshtml",
               "RelativeDocumentMoniker": "ShopVanPhongPham\\Views\\Product\\Shop.cshtml",
@@ -243,7 +548,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 29,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Views\\Product\\Detail.cshtml",
               "RelativeDocumentMoniker": "ShopVanPhongPham\\Views\\Product\\Detail.cshtml",
@@ -255,7 +560,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 30,
               "Title": "MyOrders.cshtml",
               "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Views\\Orders\\MyOrders.cshtml",
               "RelativeDocumentMoniker": "ShopVanPhongPham\\Views\\Orders\\MyOrders.cshtml",
@@ -267,7 +572,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 31,
               "Title": "CheckoutComplete.cshtml",
               "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Views\\Orders\\CheckoutComplete.cshtml",
               "RelativeDocumentMoniker": "ShopVanPhongPham\\Views\\Orders\\CheckoutComplete.cshtml",
@@ -279,19 +584,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Checkout.cshtml",
-              "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Views\\Orders\\Checkout.cshtml",
-              "RelativeDocumentMoniker": "ShopVanPhongPham\\Views\\Orders\\Checkout.cshtml",
-              "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Views\\Orders\\Checkout.cshtml",
-              "RelativeToolTip": "ShopVanPhongPham\\Views\\Orders\\Checkout.cshtml",
-              "ViewState": "AgIAAP8AAAAAAAAAAAAAABgBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-12T08:01:52.405Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 32,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "ShopVanPhongPham\\Views\\Home\\Privacy.cshtml",
@@ -303,7 +596,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 33,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ShopVanPhongPham\\Views\\Home\\Index.cshtml",
@@ -315,7 +608,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 34,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ShopVanPhongPham\\Views\\Shared\\_Layout.cshtml",
@@ -327,31 +620,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ShoppingCartController.cs",
-              "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Controllers\\ShoppingCartController.cs",
-              "RelativeDocumentMoniker": "ShopVanPhongPham\\Controllers\\ShoppingCartController.cs",
-              "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Controllers\\ShoppingCartController.cs",
-              "RelativeToolTip": "ShopVanPhongPham\\Controllers\\ShoppingCartController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwA4AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-12T07:38:52.593Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Views\\ShoppingCart\\Index.cshtml",
-              "RelativeDocumentMoniker": "ShopVanPhongPham\\Views\\ShoppingCart\\Index.cshtml",
-              "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Views\\ShoppingCart\\Index.cshtml",
-              "RelativeToolTip": "ShopVanPhongPham\\Views\\ShoppingCart\\Index.cshtml",
-              "ViewState": "AgIAADIBAAAAAAAAAAAAADsBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-12T07:36:05.211Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 35,
               "Title": "IShoppingCartRepository.cs",
               "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Models\\Interfaces\\IShoppingCartRepository.cs",
               "RelativeDocumentMoniker": "ShopVanPhongPham\\Models\\Interfaces\\IShoppingCartRepository.cs",
@@ -363,7 +632,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 36,
               "Title": "ShoppingCartItem.cs",
               "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Models\\ShoppingCartItem.cs",
               "RelativeDocumentMoniker": "ShopVanPhongPham\\Models\\ShoppingCartItem.cs",
@@ -372,18 +641,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-12T07:33:19.021Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "AppDbContextModelSnapshot.cs",
-              "DocumentMoniker": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Migrations\\AppDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "ShopVanPhongPham\\Migrations\\AppDbContextModelSnapshot.cs",
-              "ToolTip": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\Migrations\\AppDbContextModelSnapshot.cs",
-              "RelativeToolTip": "ShopVanPhongPham\\Migrations\\AppDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-11T04:08:58.66Z"
             }
           ]
         }

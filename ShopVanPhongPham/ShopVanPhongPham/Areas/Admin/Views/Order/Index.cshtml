@@ -108,6 +108,18 @@ else
                             </td>
                             <td class="text-end fw-bold text-danger">
                                 @order.OrderTotal.ToString("N0") ₫
+                                @if (order.DiscountAmount > 0)
+                                {
+                                    <br />
+
+                                    <small class="text-success fw-normal">
+                                        -@order.DiscountAmount.ToString("N0") ₫
+                                        @if (!string.IsNullOrEmpty(order.PromotionCode))
+                                        {
+                                            @:(@order.PromotionCode)
+                                        }
+                                    </small>
+                                }
                             </td>
                             <td>
                                 <small>@order.OrderPlaced.ToString("dd/MM/yyyy HH:mm")</small>

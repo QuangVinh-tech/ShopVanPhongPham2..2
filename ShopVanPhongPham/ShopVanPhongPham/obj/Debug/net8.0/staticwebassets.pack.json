@@ -53,6 +53,18 @@
       "PackagePath": "staticwebassets\\assets\\images\\bangkeo.png"
     },
     {
+      "Id": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\banners\\banner-1-chaomung.png",
+      "PackagePath": "staticwebassets\\assets\\images\\banners\\banner-1-chaomung.png"
+    },
+    {
+      "Id": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\banners\\banner-2-tuutruong.png",
+      "PackagePath": "staticwebassets\\assets\\images\\banners\\banner-2-tuutruong.png"
+    },
+    {
+      "Id": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\banners\\banner-3-mienphivanchuyen.png",
+      "PackagePath": "staticwebassets\\assets\\images\\banners\\banner-3-mienphivanchuyen.png"
+    },
+    {
       "Id": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\brent-ninaber-vlpefxuqynm-unsplash-2000x1125.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\brent-ninaber-vlpefxuqynm-unsplash-2000x1125.jpg"
     },
@@ -223,6 +235,10 @@
     {
       "Id": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\css\\admin.css",
       "PackagePath": "staticwebassets\\css\\admin.css"
+    },
+    {
+      "Id": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\css\\auth.css",
+      "PackagePath": "staticwebassets\\css\\auth.css"
     },
     {
       "Id": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\css\\cart.css",

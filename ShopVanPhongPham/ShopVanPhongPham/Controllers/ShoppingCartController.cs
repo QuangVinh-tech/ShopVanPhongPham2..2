@@ -15,22 +15,81 @@ namespace ShopVanPhongPham.Controllers
             _context = context;
         }
 
+        // Xem giỏ hàng → vẫn cho phép xem dù chưa đăng nhập
         public IActionResult Index()
         {
             var items = _cart.GetCartItems();
-            ViewBag.CartTotal = _cart.GetCartTotal();
-            ViewBag.CartCount = _cart.GetCartCount();
+            var subTotal = _cart.GetCartTotal();
 
-            
-            var cartProductIds = items.Select(i => i.ProductId).ToList();
-            ViewBag.RelatedProducts = _context.Products
-                .Where(p => !cartProductIds.Contains(p.Id))
-                .ToList()
-                .OrderBy(p => Guid.NewGuid())
-                .Take(4)
-                .ToList();
+            decimal discount = 0;
+            var promoCode = HttpContext.Session.GetString("PromoCode");
+
+            if (!string.IsNullOrEmpty(promoCode))
+            {
+                var promo = _context.Promotions.FirstOrDefault(p => p.Code == promoCode);
+                var today = DateTime.Today;
+
+                // Nếu mã bị admin xóa/tắt hoặc hết hạn giữa chừng → tự động gỡ khỏi session
+                if (promo == null || !promo.IsActive || promo.StartDate > today || promo.EndDate < today)
+                {
+                    HttpContext.Session.Remove("PromoCode");
+                    TempData["ErrorMessage"] = "Mã giảm giá đã hết hạn hoặc không còn hiệu lực.";
+                }
+                else
+                {
+                    discount = Math.Round(subTotal * promo.DiscountPercent / 100m);
+                    ViewBag.PromoCode = promo.Code;
+                    ViewBag.DiscountPercent = promo.DiscountPercent;
+                }
+            }
+
+            ViewBag.CartCount = _cart.GetCartCount();
+            ViewBag.SubTotal = subTotal;
+            ViewBag.Discount = discount;
+            ViewBag.CartTotal = subTotal - discount;
 
             return View(items);
+        }
+
+        // POST: Áp dụng mã giảm giá
+        [HttpPost]
+        public IActionResult ApplyPromotion(string code, string? returnUrl)
+        {
+            if (!User.Identity!.IsAuthenticated)
+                return RedirectToLogin(returnUrl ?? Url.Action("Index"));
+
+            if (string.IsNullOrWhiteSpace(code))
+            {
+                TempData["ErrorMessage"] = "Vui lòng nhập mã giảm giá.";
+                return Redirect(returnUrl ?? Url.Action("Index")!);
+            }
+
+            var today = DateTime.Today;
+            var promo = _context.Promotions.FirstOrDefault(p => p.Code == code.Trim());
+
+            if (promo == null)
+            {
+                TempData["ErrorMessage"] = "Mã giảm giá không tồn tại.";
+            }
+            else if (!promo.IsActive || promo.StartDate > today || promo.EndDate < today)
+            {
+                TempData["ErrorMessage"] = "Mã giảm giá đã hết hạn hoặc chưa bắt đầu.";
+            }
+            else
+            {
+                HttpContext.Session.SetString("PromoCode", promo.Code);
+                TempData["SuccessMessage"] = $"Đã áp dụng mã \"{promo.Code}\" — giảm {promo.DiscountPercent}%!";
+            }
+
+            return Redirect(returnUrl ?? Url.Action("Index")!);
+        }
+        // POST: Hủy mã đang áp dụng
+        [HttpPost]
+        public IActionResult RemovePromotion(string? returnUrl)
+        {
+            HttpContext.Session.Remove("PromoCode");
+            TempData["SuccessMessage"] = "Đã hủy mã giảm giá.";
+            return Redirect(returnUrl ?? Url.Action("Index")!);
         }
 
         [HttpPost]
@@ -84,6 +143,7 @@ namespace ShopVanPhongPham.Controllers
                 return RedirectToLogin(Url.Action("Index"));
 
             _cart.ClearCart();
+            HttpContext.Session.Remove("PromoCode");
             TempData["SuccessMessage"] = "Đã xóa toàn bộ giỏ hàng.";
             return RedirectToAction("Index");
         }
