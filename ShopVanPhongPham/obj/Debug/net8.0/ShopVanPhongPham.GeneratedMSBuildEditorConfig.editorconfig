@@ -218,6 +218,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = U2hvcFZhblBob25nUGhhbVxBcmVhc1xBZG1pblxWaWV3c1xQcm9kdWN0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/ShopVanPhongPham/ShopVanPhongPham/ShopVanPhongPham/Areas/Admin/Views/Promotion/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2hvcFZhblBob25nUGhhbVxBcmVhc1xBZG1pblxWaWV3c1xQcm9tb3Rpb25cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ShopVanPhongPham/ShopVanPhongPham/ShopVanPhongPham/Areas/Admin/Views/Promotion/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2hvcFZhblBob25nUGhhbVxBcmVhc1xBZG1pblxWaWV3c1xQcm9tb3Rpb25cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ShopVanPhongPham/ShopVanPhongPham/ShopVanPhongPham/Areas/Admin/Views/Promotion/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2hvcFZhblBob25nUGhhbVxBcmVhc1xBZG1pblxWaWV3c1xQcm9tb3Rpb25cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ShopVanPhongPham/ShopVanPhongPham/ShopVanPhongPham/Areas/Admin/Views/Promotion/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2hvcFZhblBob25nUGhhbVxBcmVhc1xBZG1pblxWaWV3c1xQcm9tb3Rpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ShopVanPhongPham/ShopVanPhongPham/ShopVanPhongPham/Areas/Admin/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = U2hvcFZhblBob25nUGhhbVxBcmVhc1xBZG1pblxWaWV3c1xTaGFyZWRcX0FkbWluTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

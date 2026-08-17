@@ -12,8 +12,8 @@ using ShopVanPhongPham.Data;
 namespace ShopVanPhongPham.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260813042839_AddCategoryTable")]
-    partial class AddCategoryTable
+    [Migration("20260815150539_AddDiscountToOrder")]
+    partial class AddDiscountToOrder
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -241,7 +241,7 @@ namespace ShopVanPhongPham.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Category", (string)null);
+                    b.ToTable("Categories");
 
                     b.HasData(
                         new
@@ -318,6 +318,9 @@ namespace ShopVanPhongPham.Migrations
                     b.Property<string>("Address")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<decimal>("DiscountAmount")
+                        .HasColumnType("decimal(18,2)");
+
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");
 
@@ -342,6 +345,9 @@ namespace ShopVanPhongPham.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Phone")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PromotionCode")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Status")

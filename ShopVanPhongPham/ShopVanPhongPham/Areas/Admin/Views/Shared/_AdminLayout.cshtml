@@ -50,6 +50,13 @@
                         <i class="bi bi-receipt me-2"></i>Đơn hàng
                     </a>
                 </li>
+
+                <li class="nav-item">
+                    <a class="nav-link @(IsActive("Promotion") ? "active" : "")"
+                       asp-area="Admin" asp-controller="Promotion" asp-action="Index">
+                        <i class="bi bi-tag me-2"></i>Khuyến mãi
+                    </a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link @(IsActive("Contact") ? "active" : "")"
                        asp-area="Admin" asp-controller="Contact" asp-action="Index">

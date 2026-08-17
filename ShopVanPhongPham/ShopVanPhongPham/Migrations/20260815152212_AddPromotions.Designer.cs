@@ -12,8 +12,8 @@ using ShopVanPhongPham.Data;
 namespace ShopVanPhongPham.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260813010815_AddCategoryTable")]
-    partial class AddCategoryTable
+    [Migration("20260815152212_AddPromotions")]
+    partial class AddPromotions
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -241,7 +241,7 @@ namespace ShopVanPhongPham.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Category");
+                    b.ToTable("Categories");
 
                     b.HasData(
                         new
@@ -318,6 +318,9 @@ namespace ShopVanPhongPham.Migrations
                     b.Property<string>("Address")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<decimal>("DiscountAmount")
+                        .HasColumnType("decimal(18,2)");
+
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");
 
@@ -342,6 +345,9 @@ namespace ShopVanPhongPham.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Phone")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PromotionCode")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Status")
@@ -506,6 +512,52 @@ namespace ShopVanPhongPham.Migrations
                         });
                 });
 
+            modelBuilder.Entity("ShopVanPhongPham.Models.Promotion", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Code")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("DiscountPercent")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("EndDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<int?>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("StartDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("Promotions");
+                });
+
             modelBuilder.Entity("ShopVanPhongPham.Models.ShoppingCartItem", b =>
                 {
                     b.Property<int>("Id")
@@ -610,6 +662,15 @@ namespace ShopVanPhongPham.Migrations
                         .IsRequired();
 
                     b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("ShopVanPhongPham.Models.Promotion", b =>
+                {
+                    b.HasOne("ShopVanPhongPham.Models.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId");
+
+                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("ShopVanPhongPham.Models.ShoppingCartItem", b =>

@@ -12,10 +12,11 @@
         public DateTime OrderPlaced { get; set; }
         public string? Status { get; set; }
 
-        // Đổi List<OrderDetail>? → List<OrderDetail> với default = []
-        // → hết warning CS8620 trong ThenInclude
+
         public List<OrderDetail> OrderDetails { get; set; } = new();
-        public string PaymentMethod { get; set; } = "QR";        // "COD" hoặc "QR"
-        public string PaymentStatus { get; set; } = "Chưa thanh toán"; // hoặc "Đã thanh toán"
+        public string PaymentMethod { get; set; } = "QR";      
+        public string PaymentStatus { get; set; } = "Chưa thanh toán";
+        public string? PromotionCode { get; set; }
+        public decimal DiscountAmount { get; set; } = 0;
     }
 }

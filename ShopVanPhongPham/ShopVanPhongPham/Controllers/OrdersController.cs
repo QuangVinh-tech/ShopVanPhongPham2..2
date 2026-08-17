@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using ShopVanPhongPham.Data;
 using ShopVanPhongPham.Helpers;
 using ShopVanPhongPham.Models;
 using ShopVanPhongPham.Models.Interfaces;
@@ -13,14 +14,32 @@ public class OrdersController : Controller
     private readonly IShoppingCartRepository _cartRepo;
     private readonly UserManager<IdentityUser> _userManager;
     private readonly IConfiguration _config;
+    private readonly AppDbContext _context;
+    private (string? code, decimal discount) GetActiveDiscount(decimal subTotal)
+    {
+        var promoCode = HttpContext.Session.GetString("PromoCode");
+        if (string.IsNullOrEmpty(promoCode)) return (null, 0);
 
+        var today = DateTime.Today;
+        var promo = _context.Promotions.FirstOrDefault(p => p.Code == promoCode);
+
+        if (promo == null || !promo.IsActive || promo.StartDate > today || promo.EndDate < today)
+        {
+            HttpContext.Session.Remove("PromoCode");
+            return (null, 0);
+        }
+
+        return (promo.Code, Math.Round(subTotal * promo.DiscountPercent / 100m));
+    }
     public OrdersController(IOrderRepository orderRepo,
                             IShoppingCartRepository cartRepo,
                             UserManager<IdentityUser> userManager,
-                            IConfiguration config)
+                            IConfiguration config,
+                            AppDbContext context)
     {
         _orderRepo = orderRepo;
         _cartRepo = cartRepo;
+        _context = context;
         _userManager = userManager;
         _config = config;
     }
@@ -33,16 +52,23 @@ public class OrdersController : Controller
         if (cartItems == null || !cartItems.Any())
             return RedirectToAction("Index", "ShoppingCart");
 
-        // ← THÊM MỚI: build sẵn QR preview để hiện ngay khi khách chọn "QR" ở trang Checkout
-        var total = _cartRepo.GetCartTotal();
+        var subTotal = _cartRepo.GetCartTotal();
+        var (code, discount) = GetActiveDiscount(subTotal);
+
+        ViewBag.SubTotal = subTotal;
+        ViewBag.PromoCode = code;
+        ViewBag.Discount = discount;
+        ViewBag.DiscountPercent = code != null
+            ? _context.Promotions.FirstOrDefault(p => p.Code == code)?.DiscountPercent
+            : null;
+
         var bank = _config.GetSection("BankInfo");
         ViewBag.QrPreviewUrl = VietQrHelper.BuildQrUrl(
             bank["BankId"]!, bank["AccountNo"]!, bank["AccountName"]!,
-            total, "Thanh toan VPP Shop");
+            subTotal - discount, "Thanh toan VPP Shop");
 
         return View(cartItems);
     }
-
     // POST /Orders/Checkout
     [Authorize]
     [HttpPost]
@@ -65,6 +91,9 @@ public class OrdersController : Controller
         var userEmail = user?.Email ?? "";
 
         var cartItems = _cartRepo.GetCartItems();
+        var subTotal = _cartRepo.GetCartTotal();
+        var (promoCode, discount) = GetActiveDiscount(subTotal);
+
         var order = new Order
         {
             FirstName = firstName,
@@ -72,7 +101,9 @@ public class OrdersController : Controller
             Email = userEmail,
             Phone = phone,
             Address = address,
-            OrderTotal = _cartRepo.GetCartTotal(),
+            OrderTotal = subTotal - discount,
+            PromotionCode = promoCode,
+            DiscountAmount = discount,
             OrderPlaced = DateTime.Now,
             PaymentMethod = string.IsNullOrWhiteSpace(paymentMethod) ? "COD" : paymentMethod,
             PaymentStatus = "Chưa thanh toán",
@@ -87,6 +118,7 @@ public class OrdersController : Controller
         var placedOrder = _orderRepo.PlaceOrder(order);
         _cartRepo.ClearCart();
         HttpContext.Session.SetInt32("CartCount", 0);
+        HttpContext.Session.Remove("PromoCode");
 
         return RedirectToAction("CheckoutComplete", new { orderId = placedOrder.Id });
     }
