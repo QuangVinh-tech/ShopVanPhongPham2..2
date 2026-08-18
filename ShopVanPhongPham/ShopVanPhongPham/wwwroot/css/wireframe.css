@@ -433,6 +433,52 @@ a {
         max-width: 480px;
     }
 
+/* Trang Giới thiệu */
+.wf-about-stat {
+    justify-content: center;
+    text-align: center;
+}
+
+    .wf-about-stat > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wf-about-stat strong {
+        font-size: 1.4rem;
+        font-weight: 800;
+        color: var(--wf-black);
+    }
+
+    .wf-about-stat span {
+        font-size: .8rem;
+        color: var(--wf-muted);
+    }
+
+.wf-about-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+    .wf-about-list li {
+        display: flex;
+        align-items: center;
+        gap: .6rem;
+        padding: .55rem 0;
+        border-bottom: 1px solid var(--wf-border);
+        font-size: .92rem;
+    }
+
+        .wf-about-list li:last-child {
+            border-bottom: none;
+        }
+
+        .wf-about-list li i {
+            color: var(--wf-black);
+        }
+
 .wf-features-strip {
     display: flex;
     border: 1px solid var(--wf-border);
@@ -856,9 +902,9 @@ a {
         color: var(--wf-text);
     }
 
-    .wf-pagination a:hover {
-        background: var(--wf-bg-soft);
-    }
+        .wf-pagination a:hover {
+            background: var(--wf-bg-soft);
+        }
 
     .wf-pagination .active {
         background: var(--wf-black);
