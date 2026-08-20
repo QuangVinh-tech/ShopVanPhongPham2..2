@@ -113,6 +113,10 @@
       "PackagePath": "staticwebassets\\assets\\images\\keovanphong1.jpg"
     },
     {
+      "Id": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\logo.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\logo.jpg"
+    },
+    {
       "Id": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\wwwroot\\assets\\images\\mbr-1920x1372.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\mbr-1920x1372.jpg"
     },
