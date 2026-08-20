@@ -31,7 +31,7 @@
         <div class="header-main">
             <div class="container header-main-inner">
                 <a class="brand" asp-area="" asp-controller="Home" asp-action="Index">
-                    <span class="brand-icon"><i class="bi bi-pencil-square"></i></span>
+                   <span class="brand-icon"> <img src="~/assets/images/logo.jpg" alt="VanPhamPro Logo" /> </span>
                     <span class="brand-text">
                         <strong>VanPhamPro</strong>
 
@@ -98,30 +98,15 @@
     </header>
 
     <!-- Offcanvas danh mục (mở từ nút "Danh mục sản phẩm") -->
-    <div class="offcanvas offcanvas-start" tabindex="-1" id="categoryOffcanvas">
-        <div class="offcanvas-header border-bottom">
-            <h6 class="offcanvas-title fw-bold">Danh mục sản phẩm</h6>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
-        </div>
-        <div class="offcanvas-body p-0">
-            <ul class="sidebar-cat-list p-3">
-                @{
-                    var navCategories = ViewBag.NavCategories as List<string>;
-                }
-                @if (navCategories != null && navCategories.Any())
-                {
-                    foreach (var cat in navCategories)
-                    {
-                        <li><a asp-controller="Product" asp-action="Shop" asp-route-category="@cat">@cat</a></li>
-                    }
-                }
-                else
-                {
-                    <li><a asp-controller="Product" asp-action="Shop">Tất cả sản phẩm</a></li>
-                }
-            </ul>
-        </div>
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="categoryOffcanvas">
+    <div class="offcanvas-header border-bottom">
+        <h6 class="offcanvas-title fw-bold">Danh mục sản phẩm</h6>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
     </div>
+    <div class="offcanvas-body p-0">
+        @await Component.InvokeAsync("CategoryMenu")
+    </div>
+</div>
 
     <main>
         @RenderBody()
