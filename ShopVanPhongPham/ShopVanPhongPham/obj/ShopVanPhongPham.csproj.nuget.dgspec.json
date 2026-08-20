@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ShopVanPhongPham2..2\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham.csproj": {}
+    "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham.csproj": {}
   },
   "projects": {
-    "D:\\ShopVanPhongPham2..2\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham.csproj": {
+    "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ShopVanPhongPham2..2\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham.csproj",
+        "projectUniqueName": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham.csproj",
         "projectName": "ShopVanPhongPham",
-        "projectPath": "D:\\ShopVanPhongPham2..2\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham.csproj",
-        "packagesPath": "C:\\Users\\lamh\\.nuget\\packages\\",
-        "outputPath": "D:\\ShopVanPhongPham2..2\\ShopVanPhongPham\\ShopVanPhongPham\\obj\\",
+        "projectPath": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "D:\\ShopVanPhongPham\\ShopVanPhongPham\\ShopVanPhongPham\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\lamh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,11 +26,11 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
-            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -44,12 +44,10 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "10.0.400"
+        }
       },
       "frameworks": {
         "net8.0": {
-          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
@@ -98,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
