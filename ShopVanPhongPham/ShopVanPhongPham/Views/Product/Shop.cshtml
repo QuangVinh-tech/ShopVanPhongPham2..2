@@ -4,6 +4,9 @@
     ViewData["Title"] = "Danh Mục Sản Phẩm";
     var categories = ViewBag.Categories as List<string> ?? new List<string>();
     var currentCategory = ViewBag.Category as string;
+    var currentSort = ViewBag.Sort as string;
+    decimal? minPrice = ViewBag.MinPrice;
+    decimal? maxPrice = ViewBag.MaxPrice;
     var pageTitle = string.IsNullOrEmpty(currentCategory) ? "Tất cả sản phẩm" : currentCategory;
 }
 
@@ -22,7 +25,9 @@
                     <h6>Danh mục sản phẩm</h6>
                     <ul class="sidebar-cat-list">
                         <li>
-                            <a asp-action="Shop" class="@(string.IsNullOrEmpty(currentCategory) ? "active" : "")">
+                            <a asp-action="Shop" asp-route-search="@ViewBag.Search"
+                               asp-route-minPrice="@minPrice" asp-route-maxPrice="@maxPrice" asp-route-sort="@currentSort"
+                               class="@(string.IsNullOrEmpty(currentCategory) ? "active" : "")">
                                 Tất cả sản phẩm
                             </a>
                         </li>
@@ -30,6 +35,7 @@
                         {
                             <li>
                                 <a asp-action="Shop" asp-route-category="@cat" asp-route-search="@ViewBag.Search"
+                                   asp-route-minPrice="@minPrice" asp-route-maxPrice="@maxPrice" asp-route-sort="@currentSort"
                                    class="@(currentCategory == cat ? "active" : "")">
                                     @cat
                                 </a>
@@ -40,25 +46,25 @@
 
                 <div class="sidebar-card">
                     <h6>Bộ lọc</h6>
-                    <label class="small text-muted mb-2 d-block">Khoảng giá</label>
-                    <input type="range" class="form-range mb-2" min="0" max="500000" disabled>
-                    <div class="d-flex justify-content-between small text-muted mb-3">
-                        <span>0đ</span><span>500.000đ+</span>
-                    </div>
+                    <form asp-action="Shop" method="get">
+                        <input type="hidden" name="search" value="@ViewBag.Search" />
+                        <input type="hidden" name="category" value="@currentCategory" />
+                        <input type="hidden" name="sort" value="@currentSort" />
 
-                    <label class="small text-muted mb-2 d-block">Thương hiệu</label>
-                    <div class="filter-check"><input type="checkbox" disabled> Thiên Long</div>
-                    <div class="filter-check"><input type="checkbox" disabled> Deli</div>
-                    <div class="filter-check"><input type="checkbox" disabled> M&amp;G</div>
-                    <div class="filter-check"><input type="checkbox" disabled> ClassMate</div>
+                        <label class="small text-muted mb-2 d-block">Khoảng giá (đ)</label>
+                        <div class="d-flex gap-2 mb-3">
+                            <input type="number" name="minPrice" min="0" step="1000"
+                                   class="form-control form-control-sm" placeholder="Từ"
+                                   value="@(minPrice?.ToString())" />
+                            <input type="number" name="maxPrice" min="0" step="1000"
+                                   class="form-control form-control-sm" placeholder="Đến"
+                                   value="@(maxPrice?.ToString())" />
+                        </div>
 
-                    <label class="small text-muted mt-3 mb-2 d-block">Màu sắc</label>
-                    <div class="d-flex gap-2">
-                        <span class="filter-swatch" style="background:#1a1a1a"></span>
-                        <span class="filter-swatch" style="background:#d9534f"></span>
-                        <span class="filter-swatch" style="background:#8a8f98"></span>
-                        <span class="filter-swatch" style="background:#fff"></span>
-                    </div>
+                        <button type="submit" class="btn btn-wf-outline btn-sm w-100 mb-2">Áp dụng</button>
+                        <a asp-action="Shop" asp-route-search="@ViewBag.Search" asp-route-category="@currentCategory"
+                           class="btn btn-link btn-sm w-100 text-muted">Xóa bộ lọc giá</a>
+                    </form>
                 </div>
             </div>
 
@@ -74,14 +80,20 @@
                                type="text" class="form-control" style="max-width:280px"
                                placeholder="Tìm sản phẩm..." />
                         <input type="hidden" name="category" value="@currentCategory" />
+                        <input type="hidden" name="minPrice" value="@(minPrice?.ToString())" />
+                        <input type="hidden" name="maxPrice" value="@(maxPrice?.ToString())" />
                         <button type="submit" class="btn btn-wf-outline btn-sm">
                             <i class="bi bi-search"></i> Lọc
                         </button>
                     </div>
                     <div class="d-flex align-items-center gap-2">
                         <span class="small text-muted">Tìm thấy @Model.Count() sản phẩm</span>
-                        <select class="wf-select" disabled>
-                            <option>Sắp xếp: Phổ biến</option>
+                        <select name="sort" class="wf-select" onchange="this.form.submit()">
+                            <option value="" selected="@(string.IsNullOrEmpty(currentSort) ? "selected" : null)">Sắp xếp: Mặc định</option>
+                            <option value="price_asc" selected="@(currentSort == "price_asc" ? "selected" : null)">Giá tăng dần</option>
+                            <option value="price_desc" selected="@(currentSort == "price_desc" ? "selected" : null)">Giá giảm dần</option>
+                            <option value="name_asc" selected="@(currentSort == "name_asc" ? "selected" : null)">Tên A &rarr; Z</option>
+                            <option value="name_desc" selected="@(currentSort == "name_desc" ? "selected" : null)">Tên Z &rarr; A</option>
                         </select>
                     </div>
                 </form>
