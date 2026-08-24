@@ -38,6 +38,7 @@ builder.Services.AddSession(options =>
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IShoppingCartRepository, ShoppingCartRepository>();
 builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+builder.Services.AddScoped<IWishlistRepository, WishlistRepository>();
 var app = builder.Build();
 using (var scope = app.Services.CreateScope())
 {

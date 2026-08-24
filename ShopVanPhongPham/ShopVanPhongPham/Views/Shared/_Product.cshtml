@@ -5,8 +5,22 @@
         <img src="@Model.ImageUrl"
              alt="@Model.Name"
              onerror="this.src='/assets/images/placeholder.jpg'" />
-        <span class="wf-product-wish"><i class="bi bi-heart"></i></span>
     </a>
+    <form asp-controller="Wishlist" asp-action="Toggle" method="post" style="display:contents">
+        @Html.AntiForgeryToken()
+        <input type="hidden" name="productId" value="@Model.Id" />
+        <input type="hidden" name="returnUrl" value="@Context.Request.Path@Context.Request.QueryString" />
+        <button type="submit" class="wf-product-wish border-0 bg-transparent p-0" title="Yêu thích">
+            @if (ViewBag.WishlistIds != null && ((HashSet<int>)ViewBag.WishlistIds).Contains(Model.Id))
+            {
+                <i class="bi bi-heart-fill text-danger"></i>
+            }
+            else
+            {
+                <i class="bi bi-heart"></i>
+            }
+        </button>
+    </form>
 
     <div class="wf-product-body">
         <a asp-controller="Product" asp-action="Detail" asp-route-id="@Model.Id" class="wf-product-name text-decoration-none" title="@Model.Name">

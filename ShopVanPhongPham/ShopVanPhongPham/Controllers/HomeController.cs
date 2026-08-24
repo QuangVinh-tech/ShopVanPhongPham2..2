@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using ShopVanPhongPham.Data;
 using ShopVanPhongPham.Models;
@@ -10,11 +11,16 @@ public class HomeController : Controller
 {
     private readonly IProductRepository _productRepo;
     private readonly AppDbContext _context;
+    private readonly IWishlistRepository _wishlistRepo;
+    private readonly UserManager<IdentityUser> _userManager;
 
-    public HomeController(IProductRepository productRepo, AppDbContext context)
+    public HomeController(IProductRepository productRepo, AppDbContext context,
+                           IWishlistRepository wishlistRepo, UserManager<IdentityUser> userManager)
     {
         _productRepo = productRepo;
         _context = context;
+        _wishlistRepo = wishlistRepo;
+        _userManager = userManager;
     }
 
     public IActionResult Index()
@@ -26,10 +32,20 @@ public class HomeController : Controller
             .Select(g => new { Name = g.Key, Count = g.Count() })
             .OrderBy(c => c.Name)
             .ToList();
+
+        if (User.Identity!.IsAuthenticated)
+        {
+            var userId = _userManager.GetUserId(User)!;
+            ViewBag.WishlistIds = _wishlistRepo.GetWishlistItems(userId)
+                .Select(w => w.ProductId).ToHashSet();
+        }
+        else
+        {
+            ViewBag.WishlistIds = new HashSet<int>();
+        }
+
         return View(products.ToList());
     }
-
-    public IActionResult About() => View();
 
     public IActionResult Contact() => View();
 

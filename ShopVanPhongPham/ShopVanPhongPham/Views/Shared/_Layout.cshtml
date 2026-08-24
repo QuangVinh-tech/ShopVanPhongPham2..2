@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Identity
+@using ShopVanPhongPham.Models.Interfaces
+@inject IWishlistRepository WishlistRepo
+@inject UserManager<IdentityUser> UserManager
+<!DOCTYPE html>
 <html lang="vi">
 <head>
     <meta charset="utf-8" />
@@ -31,7 +35,7 @@
         <div class="header-main">
             <div class="container header-main-inner">
                 <a class="brand" asp-area="" asp-controller="Home" asp-action="Index">
-                   <span class="brand-icon"> <img src="~/assets/images/logo.jpg" alt="VanPhamPro Logo" /> </span>
+                    <span class="brand-icon"><i class="bi bi-pencil-square"></i></span>
                     <span class="brand-text">
                         <strong>VanPhamPro</strong>
 
@@ -47,11 +51,23 @@
 
                     @await Html.PartialAsync("_LoginPartial")
 
+                    @{
+                        var wishlistCount = User.Identity!.IsAuthenticated
+                        ? WishlistRepo.GetWishlistCount(UserManager.GetUserId(User)!)
+                        : 0;
+                    }
                     <li class="nav-item">
-                        <a asp-area="" asp-controller="Home" asp-action="Index"
+                        <a asp-area="" asp-controller="Wishlist" asp-action="Index"
                            class="header-action-item nav-link">
                             <i class="bi bi-heart"></i>
                             <span>Yêu thích</span>
+                            @if (wishlistCount > 0)
+                            {
+                                <span class="action-badge">
+                                    @wishlistCount
+                                    <span class="visually-hidden">sản phẩm</span>
+                                </span>
+                            }
                         </a>
                     </li>
 
@@ -87,10 +103,9 @@
                 <ul class="main-nav">
                     <li><a asp-area="" asp-controller="Home" asp-action="Index">Trang chủ</a></li>
                     <li><a asp-area="" asp-controller="Product" asp-action="Shop">Sản phẩm</a></li>
-
-                    <li><a asp-area="" asp-controller="Promotion" asp-action="Index">Khuyến mãi</a></li
-                    <li><a asp-controller="News" asp-action="Index">Tin tức</a></li>
-                  <li><a asp-area="" asp-controller="Home" asp-action="About">Giới thiệu</a></li>
+                    <li><a asp-area="" asp-controller="Promotion" asp-action="Index">Khuyến mãi</a></li>
+                    <li><a href="#">Tin tức</a></li>
+                    <li><a href="#">Giới thiệu</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Contact">Liên hệ</a></li>
                 </ul>
             </div>
@@ -98,15 +113,30 @@
     </header>
 
     <!-- Offcanvas danh mục (mở từ nút "Danh mục sản phẩm") -->
-  <div class="offcanvas offcanvas-start" tabindex="-1" id="categoryOffcanvas">
-    <div class="offcanvas-header border-bottom">
-        <h6 class="offcanvas-title fw-bold">Danh mục sản phẩm</h6>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="categoryOffcanvas">
+        <div class="offcanvas-header border-bottom">
+            <h6 class="offcanvas-title fw-bold">Danh mục sản phẩm</h6>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body p-0">
+            <ul class="sidebar-cat-list p-3">
+                @{
+                    var navCategories = ViewBag.NavCategories as List<string>;
+                }
+                @if (navCategories != null && navCategories.Any())
+                {
+                    foreach (var cat in navCategories)
+                    {
+                        <li><a asp-controller="Product" asp-action="Shop" asp-route-category="@cat">@cat</a></li>
+                    }
+                }
+                else
+                {
+                    <li><a asp-controller="Product" asp-action="Shop">Tất cả sản phẩm</a></li>
+                }
+            </ul>
+        </div>
     </div>
-    <div class="offcanvas-body p-0">
-        @await Component.InvokeAsync("CategoryMenu")
-    </div>
-</div>
 
     <main>
         @RenderBody()
